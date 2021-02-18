@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border;
+}
+
+body {
+  width: 100%;
+  background-size: cover;
+  background-image: url(./rectangle.png);
+}
+
+nav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+}
+
+nav div img {
+  width: 400%;
+  padding-left: 10px;
+}
+
+nav div ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 90px;
+  list-style-type: none;
+  font-weight: bold;
+  padding: 15px;
+}
+
+header {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+section {
+  width: 40%;
+  height: 150px;
+  padding-left: 10px;
+}
+section h2 {
+  color: cadetblue;
+  font-size: 30px;
+  margin-block: 15px;
+}
+section span {
+  font-weight: bold;
+}
+
+main {
+  width: 95%;
+  height: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 90px;
+  padding-right: 100px;
+}
+main div {
+  display: flex;
+  width: 200px;
+  background-color: #3a7477;
+  border: 2px;
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 0px;
+  color: white;
+}
+main div:hover {
+  background: red;
+}
+main div h1 {
+  width: 400px;
+  transform: rotateZ(270deg);
+  align-items: center;
+}
+main div a {
+  text-decoration: none;
+  color: white;
+}
+
+.homes {
+  height: 300px;
+}
+
+.careers {
+  height: 400px;
+}
+
+.schools {
+  height: 500px;
+}
+
+.healthcare {
+  height: 600px;
+}
