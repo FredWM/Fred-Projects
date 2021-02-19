@@ -11,19 +11,14 @@ body {
 }
 
 nav {
-  width: 100%;
   height: 10%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  color: black;
 }
-
-nav div img {
+nav .icon {
   width: 400%;
   padding-left: 10px;
 }
-
 nav div ul {
   display: flex;
   flex-direction: row;
@@ -54,8 +49,7 @@ section span {
 }
 
 main {
-  width: 95%;
-  height: 60%;
+  width: 90%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -99,4 +93,66 @@ main div a {
 
 .healthcare {
   height: 600px;
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    background-image: url(./mobrectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  nav {
+    display: flex;
+    position: relative;
+  }
+  nav div ul {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+  }
+  nav div img {
+    position: relative;
+    top: 100%;
+    left: 550%;
+  }
+
+  header {
+    margin-top: 115px;
+    text-align: center;
+  }
+
+  main {
+    width: 95%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50px;
+    margin-top: 90px;
+  }
+  main div {
+    width: 300px;
+    background-color: #3a7477;
+    border: 2px;
+    border-radius: 15px;
+    color: white;
+  }
+  main div:hover {
+    background: red;
+  }
+  main div h1 {
+    transform: rotateZ(360deg);
+    text-align: center;
+    font-size: 20px;
+  }
+
+  section {
+    display: none;
+  }
+
+  .block {
+    height: 60px;
+  }
 }
