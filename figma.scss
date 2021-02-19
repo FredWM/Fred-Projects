@@ -47,8 +47,12 @@ section {
       font-size: 30px;
       margin-block: 15px;
     }
-    span {
+    p{
       font-weight: bold;
+      padding-block: 10px;
+    }
+    .goal {
+      color: rgb(219, 96, 9);
     }
 }
 
@@ -72,7 +76,7 @@ main {
       color: white;
 
       &:hover {
-        background:red
+        background-color: rgb(177, 76, 4);
       }
 
       h1 {

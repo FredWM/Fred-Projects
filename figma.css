@@ -44,8 +44,12 @@ section h2 {
   font-size: 30px;
   margin-block: 15px;
 }
-section span {
+section p {
   font-weight: bold;
+  padding-block: 10px;
+}
+section .goal {
+  color: #db6009;
 }
 
 main {
@@ -67,7 +71,7 @@ main div {
   color: white;
 }
 main div:hover {
-  background: red;
+  background-color: #b14c04;
 }
 main div h1 {
   width: 400px;

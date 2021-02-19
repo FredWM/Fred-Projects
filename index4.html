@@ -4,11 +4,58 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us</title>
+  <link rel="stylesheet" href="figma4.css">
 </head>
 <body>
-  <Form>
+  <nav>
+    <div>
+      <img src="./home_work-24px.svg" class="icon" alt="house icon">
+    </div>
+    <div>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a></li>
+        <li>Projects</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <h4 id='smallheader'> Building Communities Across the Globe</h4> 
+    <h1>Contact Us</h1>
+    <p>Changing Lives Step-by-Step</p>
+  </header>
+
+  <Main>
+    <form class="container">
+      <label for='email'>Email:</label>
+     <input type="text" name='email' id='email' required> 
     
-  </Form>
+     <label for='fullname'>Full Name:</label>
+     <input type="text" name='fullname' id='fullname' required>
+
+      <label for='gender'>Gender:</label>
+      <input type="text" name='gender' id='gender'>
+    
+      <label for='area'>Area of Interest:</label>
+       <select name="Area Of Interest"> Area Of Interest
+          <option value="teach">Teach</option>
+          <option value="build">Build</option>
+          <option value="fund">Fund</option>
+        </select>
+    
+      <label for='availability'>Availiability:</label>
+      <input type= 'date' name='availability' id='availability'>
+    
+      <label for='comments'>Comments:</label>
+      <textarea name="comments" id="comments" cols="30" rows="3">Leave your comments</textarea>
+    
+      <button>Clear</button>
+
+      <input type="submit">
+    </form>
+  </Main>
   
 </body>
 </html>
